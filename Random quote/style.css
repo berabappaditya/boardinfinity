@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(1, 204, 255);
+    align-text: center;
+}
+@media only screen and (min-width: 1024px) {
+    .container header .header-nav-area #nav_container {
+        display: flex;
+    }
+}
+#cen{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    font-family: "lato";
+     border-radius: 5px 5px 5px 5px;
+     padding:20px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.4);
+     background-image:linear-gradient(135deg, rgba(240, 240, 240, 0.607), rgba(253, 246, 246, 0.623));
+     transition: 1s ease;
+     margin-bottom:10px;
+    align-items: center;
+    
+    height:300px;
+    width:600px;
+
+
+}
+#main:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.7);
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: 1s ease;
+    opacity: 95%;
+}
+
+#upperpara {
+    font-family: 'Yusei Magic',
+    sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+#uppermain{
+    height: 85%;
+    width: 100%;
+    font-size: 22px;
+    margin: 5px;
+}
+#change {
+      text-align: center;
+    padding: 6px;
+   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+    border: 0px;
+    width: 30%;
+}
+#mainbtn{
+display: flex;
+justify-content: center;
+}
+#writer{
+      text-align: right;
+}
+ .txtcol{
+     color: rgba(255, 0, 0, 0.699);
+ }
