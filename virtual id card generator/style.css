@@ -1,57 +1,77 @@
 body {
-    background-color: black;
-    align-text: center;
+    background-color: rgb(1, 204, 255);
+}
+
+#cen{
+    margin-top:100px;
 }
 
 #main {
     font-family: "lato";
+     border-radius: 0px 0px 5px 5px;
+     padding:20px;
+     box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.4);
+     background-image:linear-gradient(135deg, rgba(240, 240, 240, 0.607), rgba(253, 246, 246, 0.623));
+     transition: 1s ease;
+     margin-bottom:10px;
+
+    margin-left: 7%;
+    height:500px;
+    width:85%;
+
+
+}
+
+#upperpara {
+    border-radius: 5px 5px 0px 0px;
+    background-color:blue;
     color: white;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#clk {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-text: center;
-    font-size: 100px;
-}
-
-.fl {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-text: center;
+    margin-top: 100px;
     font-size: 30px;
-    font-weight: 1rem;
+    width:85%;
+    margin-left: 7%;
+}
+#uppermain{
+    height: 85%;
+    width: 100%;
+    font-size: 15
+     height:170px;px;
+    margin: 5px;
+
+}
+.frm{
+    width: 60%;
+}
+#cardright{
+    border-style: solid;
+    border-width: 0px 0px 0px 2px;
+    border-color: black;
+    height: 125%;
+    margin:-20px -50px -30px -10px;
 }
 
-#dt {
-    display: flex;
-    align-items: center;
+#idcardcen{
+    display:flex;
     justify-content: center;
-    align-text: center;
-    font-size: 30px;
-}
-
-#ss {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    align-text: center;
-    margin-top: 30px;
 }
-
-#st {
-    margin-left: 20px;
-    padding: 5px;
-    color:black;
+#idcard{
+    border-radius: 5px;
+     margin-top:25%;
+     box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.4);
 }
-
-#sp {
-
-    padding: 5px;
-    color:black;
+#idcardleft{
+ background-image: linear-gradient(360deg, #0008fd, #04ffff);
+ padding:5px;
+ height:170px;
+  border-radius:5px 0px 0px 5px;
+}
+#idcardright{
+background-color:whitesmoke;
+padding:5px;
+ height:170px;
+ border-radius:0px 5px 5px 0px;
 }
