@@ -16,7 +16,7 @@ body {
      margin-bottom:10px;
 
     margin-left: 7%;
-    height:500px;
+    height:550px;
     width:85%;
 
 
@@ -37,10 +37,15 @@ body {
 #uppermain{
     height: 85%;
     width: 100%;
-    font-size: 15
-     height:170px;px;
+    font-size: 15;
+     height:170px;
     margin: 5px;
 
+}
+#imgPrev{
+    margin-top:3%;
+    height: 10%;
+    width:10%;
 }
 .frm{
     width: 60%;
@@ -48,9 +53,9 @@ body {
 #cardright{
     border-style: solid;
     border-width: 0px 0px 0px 2px;
-    border-color: black;
-    height: 125%;
-    margin:-20px -50px -30px -10px;
+    border-color: rgba(50, 46, 53, 0.603);
+    height: 324%;
+    margin:-25px -50px -30px -10px;
 }
 
 #idcardcen{
@@ -64,14 +69,34 @@ body {
      box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.4);
 }
 #idcardleft{
+    display: flex;
+    justify-content: center;
  background-image: linear-gradient(360deg, #0008fd, #04ffff);
  padding:5px;
- height:170px;
+ width: 140px;
+ height:180px;
   border-radius:5px 0px 0px 5px;
 }
 #idcardright{
+   
 background-color:whitesmoke;
 padding:5px;
- height:170px;
+width: 200px;
+ height:180px;
  border-radius:0px 5px 5px 0px;
+}
+#idCardImg{    
+height:60%;
+width:80%;
+top:20%;
+margin-top: 25%;
+border-radius:50%;
+
+}
+#para{
+    font-family: 'Archivo',
+    sans-serif;
+    margin: 30px 5px 5px 10px ;
+    font-size:16px;
+    font-weight:bold;
 }
